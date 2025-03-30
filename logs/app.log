@@ -1,0 +1,20 @@
+2025-03-30 07:42:37 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h40m18s13ms478µs400ns).
+2025-03-30 07:45:30 [http-nio-8080-exec-4] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 07:45:33 [http-nio-8080-exec-4] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 08:24:01 [http-nio-8080-exec-6] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 08:24:03 [http-nio-8080-exec-6] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 08:27:07 [http-nio-8080-exec-7] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 08:27:07 [http-nio-8080-exec-7] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 08:38:17 [http-nio-8080-exec-9] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 08:38:18 [http-nio-8080-exec-9] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 08:47:16 [http-nio-8080-exec-1] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 08:47:19 [http-nio-8080-exec-1] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 08:48:09 [http-nio-8080-exec-4] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 08:48:09 [http-nio-8080-exec-4] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 08:51:06 [http-nio-8080-exec-6] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 08:51:07 [http-nio-8080-exec-6] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 10:31:08 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16s942ms597µs700ns).
+2025-03-30 10:31:40 [http-nio-8080-exec-7] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 10:31:41 [http-nio-8080-exec-7] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 11:46:08 [http-nio-8080-exec-9] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
+2025-03-30 11:46:10 [http-nio-8080-exec-9] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
