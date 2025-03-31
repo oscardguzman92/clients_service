@@ -20,8 +20,6 @@ public class ResponseHandler {
 
     public static ResponseEntity<?> handleResponse(ResponseEntity<?> response) {
         if (response.getStatusCode().is2xxSuccessful()) {
-            System.out.println("response: ");
-            System.out.println(Collections.singletonList(response));
             return ResponseEntity.ok(new ApiResponse<>(true, "Success", Collections.singletonList(response.getBody())));
         }
         return ResponseEntity.status(response.getStatusCode()).body(new ApiResponse<>(false, "API error", null));

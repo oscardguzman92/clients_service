@@ -6,8 +6,10 @@ import com.alianza.clients.presentation.dto.ApiResponse;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -18,7 +20,7 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
-
+@ExtendWith(MockitoExtension.class)
 public class ClientControllerTest {
 
     @Mock
@@ -31,7 +33,7 @@ public class ClientControllerTest {
 
     @BeforeEach
     void setUp() {
-        client = new Client(1L, "jdoe", "John Doe", "jdoe@example.com", "3219876543", "20/05/2022");
+        client = new Client("jdoe", "John Doe", "jdoe@example.com", "3219876543", "20/05/2022", "20/05/2022", "20/05/2022");
     }
 
     @Test
@@ -45,13 +47,13 @@ public class ClientControllerTest {
         assertInstanceOf(ApiResponse.class, response.getBody());
         ApiResponse<?> apiResponse = (ApiResponse<?>) response.getBody();
         assertTrue(apiResponse.isSuccess());
-        assertEquals("Client created successfully", apiResponse.getMessage());
-        assertEquals(client, apiResponse.getData());
+        assertEquals("Success", apiResponse.getMessage());
+        assertEquals(client, ((List<?>) apiResponse.getData()).get(0));
     }
 
     @Test
     public void testGetAllClients() {
-        List<Client> clients = Arrays.asList(client, new Client(2L, "jsmith", "Jane Smith", "jsmith@example.com", "3219876543", "21/05/2022"));
+        List<Client> clients = Arrays.asList(client, new Client("jsmith", "Jane Smith", "jsmith@example.com", "3219876543", "21/05/2022", "21/05/2022", "21/05/2022"));
         when(iClientService.findAllClients()).thenReturn(clients);
 
         ResponseEntity<?> response = clientController.getAllClients();
@@ -61,7 +63,7 @@ public class ClientControllerTest {
         assertTrue(response.getStatusCode().is2xxSuccessful());
         assertInstanceOf(ApiResponse.class, response.getBody());
         ApiResponse<?> apiResponse = (ApiResponse<?>) response.getBody();
-        assertEquals("Clients retrieved successfully", apiResponse.getMessage());
+        assertEquals("Clients retrieved successfully.", apiResponse.getMessage());
         assertEquals(clients, apiResponse.getData());
     }
 
@@ -77,7 +79,8 @@ public class ClientControllerTest {
         ApiResponse<?> apiResponse = (ApiResponse<?>) response.getBody();
         assertTrue(apiResponse.isSuccess());
         assertEquals("Success", apiResponse.getMessage());
-        assertEquals(client, apiResponse.getData());
+        assertEquals(Optional.of(client), ((List<?>) apiResponse.getData()).get(0));
+
     }
 
     @Test

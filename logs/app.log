@@ -18,3 +18,279 @@
 2025-03-30 10:31:41 [http-nio-8080-exec-7] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
 2025-03-30 11:46:08 [http-nio-8080-exec-9] INFO  c.a.c.i.l.RequestResponseLoggingFilter - Incoming request: GET /clients
 2025-03-30 11:46:10 [http-nio-8080-exec-9] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 15:27:54 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h2m51s411ms563µs200ns).
+2025-03-30 17:37:33 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 17860 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 17:37:33 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 17:37:33 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 17:37:35 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 17:37:35 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2025-03-30 17:37:36 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 17:37:36 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 17:37:36 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 17:37:37 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 17:37:37 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 17:37:37 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 17:37:37 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 17:37:37 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 17:37:38 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 17:37:39 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 17:37:39 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:37:40 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 17:37:40 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 17:37:41 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 7.96 seconds (process running for 10.291)
+2025-03-30 17:37:41 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:37:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 17:37:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 17:48:21 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 5944 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 17:48:21 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 17:48:21 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 17:48:23 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 17:48:23 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interface.
+2025-03-30 17:48:24 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 17:48:24 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 17:48:24 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 17:48:24 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 17:48:24 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 17:48:25 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 17:48:25 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 17:48:25 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 17:48:25 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 17:48:26 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 17:48:27 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:48:28 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 17:48:28 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 17:48:28 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 7.727 seconds (process running for 11.79)
+2025-03-30 17:48:28 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:48:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 17:48:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 17:50:09 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 7272 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 17:50:09 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 17:50:09 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 17:50:10 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 17:50:10 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2025-03-30 17:50:11 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 17:50:11 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 17:50:11 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 17:50:12 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 17:50:12 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 17:50:12 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 17:50:12 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 17:50:12 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 17:50:12 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 17:50:14 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 17:50:14 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:50:14 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 17:50:15 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 17:50:15 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 7.357 seconds (process running for 11.432)
+2025-03-30 17:50:15 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:50:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 17:50:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 17:53:54 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 18356 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 17:53:54 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 17:53:54 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 17:53:56 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 17:53:56 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2025-03-30 17:53:56 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 17:53:57 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 17:53:57 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 17:53:57 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 17:53:57 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 17:53:58 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 17:53:58 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 17:53:58 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 17:53:58 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 17:53:59 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 17:53:59 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:53:59 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 17:54:00 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 17:54:00 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 6.561 seconds (process running for 10.497)
+2025-03-30 17:54:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:54:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 17:54:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 17:57:32 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 11964 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 17:57:32 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 17:57:32 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 17:57:33 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 17:57:33 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2025-03-30 17:57:34 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 17:57:34 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 17:57:34 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 17:57:35 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 17:57:35 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 17:57:35 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 17:57:35 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 17:57:35 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 17:57:35 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 17:57:36 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 17:57:36 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:57:37 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 17:57:38 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 17:57:38 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 6.776 seconds (process running for 11.792)
+2025-03-30 17:57:38 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:57:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 17:57:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 17:58:41 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 1208 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 17:58:41 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 17:58:41 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 17:58:42 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 17:58:43 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interface.
+2025-03-30 17:58:43 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 17:58:44 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 17:58:44 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 17:58:44 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 17:58:44 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 17:58:44 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 17:58:44 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 17:58:44 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 17:58:44 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 17:58:46 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 17:58:46 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:58:46 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 17:58:47 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 17:58:47 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 6.807 seconds (process running for 10.956)
+2025-03-30 17:58:47 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 17:58:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 17:58:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 18:12:55 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 7232 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 18:12:55 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 18:12:55 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 18:12:57 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 18:12:57 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2025-03-30 18:12:57 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 18:12:58 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 18:12:58 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 18:12:58 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 18:12:58 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 18:12:59 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 18:12:59 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 18:12:59 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 18:12:59 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 18:13:00 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 18:13:00 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 18:13:01 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 18:13:02 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 18:13:02 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 7.37 seconds (process running for 9.36)
+2025-03-30 18:13:03 [Test worker] INFO  c.a.c.p.controllers.ClientController - Fetching client with sharedKey: jdoe
+2025-03-30 18:13:03 [Test worker] INFO  c.a.c.p.controllers.ClientController - Client found: Client(id=null, sharedKey=jdoe, name=John Doe, email=jdoe@example.com, phone=3219876543, dateAdded=20/05/2022, startDate=20/05/2022, endDate=20/05/2022)
+2025-03-30 18:13:03 [Test worker] INFO  c.a.c.p.controllers.ClientController - Fetching client with sharedKey: unknown
+2025-03-30 18:13:03 [Test worker] WARN  c.a.c.p.controllers.ClientController - Client with sharedKey unknown not found
+2025-03-30 18:13:03 [Test worker] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 18:13:03 [Test worker] INFO  c.a.c.p.controllers.ClientController - Creating client: Client(id=null, sharedKey=jdoe, name=John Doe, email=jdoe@example.com, phone=3219876543, dateAdded=20/05/2022, startDate=20/05/2022, endDate=20/05/2022)
+2025-03-30 18:13:03 [Test worker] INFO  c.a.c.p.controllers.ClientController - Client created successfully: Client(id=null, sharedKey=jdoe, name=John Doe, email=jdoe@example.com, phone=3219876543, dateAdded=20/05/2022, startDate=20/05/2022, endDate=20/05/2022)
+2025-03-30 18:13:03 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 18:13:03 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 18:13:03 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 18:21:55 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 7764 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 18:21:55 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 18:21:55 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 18:21:56 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 18:21:56 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162 ms. Found 1 JPA repository interface.
+2025-03-30 18:21:57 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 18:21:57 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 18:21:58 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 18:21:58 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 18:21:58 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 18:21:58 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 18:21:58 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 18:21:58 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 18:21:58 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 18:22:00 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 18:22:00 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 18:22:01 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 18:22:01 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 18:22:02 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 7.342 seconds (process running for 11.4)
+2025-03-30 18:22:02 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 18:22:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 18:22:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-30 18:50:47 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Starting ClientsApplicationTests using Java 17.0.2 with PID 17212 (started by OSCAR in C:\Users\OSCAR\Documents\Alianza\clients)
+2025-03-30 18:50:47 [Test worker] DEBUG c.a.clients.ClientsApplicationTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-30 18:50:47 [Test worker] INFO  c.a.clients.ClientsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 18:50:49 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-30 18:50:49 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
+2025-03-30 18:50:50 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-30 18:50:50 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-30 18:50:50 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-30 18:50:51 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-30 18:50:51 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 18:50:51 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/db user=SA
+2025-03-30 18:50:51 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 18:50:51 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-30 18:50:51 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-30 18:50:52 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-30 18:50:53 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 18:50:53 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-30 18:50:54 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/db'
+2025-03-30 18:50:54 [Test worker] INFO  c.a.clients.ClientsApplicationTests - Started ClientsApplicationTests in 7.203 seconds (process running for 9.224)
+2025-03-30 18:50:55 [Test worker] INFO  c.a.c.p.controllers.ClientController - Fetching client with sharedKey: jdoe
+2025-03-30 18:50:55 [Test worker] INFO  c.a.c.p.controllers.ClientController - Client found: Client(id=null, sharedKey=jdoe, name=John Doe, email=jdoe@example.com, phone=3219876543, dateAdded=20/05/2022, startDate=20/05/2022, endDate=20/05/2022)
+2025-03-30 18:50:55 [Test worker] INFO  c.a.c.p.controllers.ClientController - Fetching client with sharedKey: unknown
+2025-03-30 18:50:55 [Test worker] WARN  c.a.c.p.controllers.ClientController - Client with sharedKey unknown not found
+2025-03-30 18:50:55 [Test worker] INFO  c.a.c.p.controllers.ClientController - Clients retrieved successfully.
+2025-03-30 18:50:55 [Test worker] INFO  c.a.c.p.controllers.ClientController - Creating client: Client(id=null, sharedKey=jdoe, name=John Doe, email=jdoe@example.com, phone=3219876543, dateAdded=20/05/2022, startDate=20/05/2022, endDate=20/05/2022)
+2025-03-30 18:50:55 [Test worker] INFO  c.a.c.p.controllers.ClientController - Client created successfully: Client(id=null, sharedKey=jdoe, name=John Doe, email=jdoe@example.com, phone=3219876543, dateAdded=20/05/2022, startDate=20/05/2022, endDate=20/05/2022)
+2025-03-30 18:50:55 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-30 18:50:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 18:50:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -33,10 +33,8 @@ public class ClientController {
     @GetMapping
     public ResponseEntity<ApiResponse<Object>> getAllClients() {
         try {
-            System.out.println("GET ALL CLIENTS");
             List<Client> clients = clientService.findAllClients();
             logger.info("Clients retrieved successfully.");
-            System.out.println(clients);
             ApiResponse<Object> response = new ApiResponse<>(true, "Clients retrieved successfully.", clients);
             return ResponseEntity.ok(response);
         } catch (Exception e) {
@@ -56,7 +54,7 @@ public class ClientController {
                 return handleResponse(ResponseEntity.ok(client));
             } else {
                 logger.warn("Client with sharedKey {} not found", sharedKey);
-                return handleExceptionNotFound(new RuntimeException("Client not found"),sharedKey);
+                return handleExceptionNotFound(new RuntimeException(),"Client not found");
             }
         } catch (RestClientException e) {
             return handleException(e, "Failed to retrieve client");

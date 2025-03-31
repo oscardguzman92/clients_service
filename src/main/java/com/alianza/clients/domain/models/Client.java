@@ -27,4 +27,13 @@ public class Client {
     private String startDate;
     private String endDate;
 
+    public Client(String sharedKey, String name, String email, String phone, String dateAdded, String startDate, String endDate) {
+          this. sharedKey = sharedKey;
+          this.name = name;
+        this.email = email;
+        this.phone = phone;
+        this.dateAdded = dateAdded;
+        this.startDate = startDate;
+        this.endDate = endDate;
+    }
 }
